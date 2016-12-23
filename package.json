@@ -1,24 +1,14 @@
 {
-  "name": "web_scraping",
+  "name": "video2images",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "video2img.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^2.1.4",
-    "aws-sdk": "^2.7.5",
-    "aws-sns-publish": "^3.0.0",
-    "body-parser": "^1.15.2",
-    "cheerio": "^0.22.0",
-    "elasticsearch": "^12.1.0",
-    "express": "^4.14.0",
-    "lodash": "^4.17.2",
-    "request": "^2.79.0",
-    "sqs-consumer": "^3.4.0"
+    "fluent-ffmpeg": "^2.1.0"
   }
 }
